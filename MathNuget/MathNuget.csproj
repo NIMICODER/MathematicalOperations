@@ -3,11 +3,28 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Company>David Ukpoju</Company>
+    <Company>genesys tech hub</Company>
     <RepositoryUrl>https://github.com/NIMICODER/MathematicalOperations</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Description>This package implements simple to complex mathematical operations. Feel free to explore.</Description>
+    <Description>This package implements simple to complex mathematical operations. Feel free to explore.
+
+</Description>
     <Title>MathematicalOperationNuget</Title>
+    <Authors>David Ukpoju</Authors>
+    <RootNamespace>MathNuget</RootNamespace>
+    <AssemblyName>MathematicalOperations</AssemblyName>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\MathematicalOperations-master\MathematicalOperations-master\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNugett" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
